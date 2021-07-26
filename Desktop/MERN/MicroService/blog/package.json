@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "posts": "cd posts & npm start",
+    "comments": "cd comments & npm start",
+    "client":"cd client & npm start",
+    "event-bus":"cd event-bus & npm start",
+    "query":"cd query & npm start",
+    "moderation":"cd moderation & npm start",
+    "dev": "concurrently \"npm run posts\" \"npm run comments\"  \"npm run client\"  \"npm run event-bus\"  \"npm run query\" \"npm run moderation\"  "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
