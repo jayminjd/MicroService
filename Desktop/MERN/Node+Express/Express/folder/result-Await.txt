@@ -1,2 +1,0 @@
-nhere is the result1: Hello this is first file Hello this is second file 
-nhere is the result2: Hello this is first file Hello this is second file 
